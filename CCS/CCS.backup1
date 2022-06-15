@@ -21,11 +21,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 175.01594, 357.42219, 265.49596 ],
-			"angle_xy": 280.80867,
-			"angle_z": 48.04303,
+			"focus": [ 509.54886, 163.43291, 172.64247 ],
+			"angle_xy": 40.042,
+			"angle_z": 31.47767,
 			"roll": 0,
-			"zoom": 44.16772
+			"zoom": 222.98958
 		}
 	},
 	"background": {
@@ -176,9 +176,35 @@
 		{
 			"id": "38AB5856N96RH31T",
 			"type": "scenery",
-			"name": "",
+			"name": "biome",
 			"scenery": "994T5JKLT7S6DOT0",
 			"block": {
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		},
+		{
+			"id": "GY74B4P1QHD379BI",
+			"type": "item",
+			"name": "AT_Studio sword",
+			"item": {
+				"tex": "default",
+				"name": "item/iron_sword",
+				"3d": true,
+				"face_camera": false,
+				"bounce": false,
+				"spin": false
+			}
+		},
+		{
+			"id": "82KOOS231BZ6GE6G",
+			"type": "block",
+			"name": "",
+			"block": {
+				"name": "obsidian",
+				"state": {
+				},
 				"tex": "default",
 				"repeat_enable": false,
 				"repeat": [ 1, 1, 1 ]
@@ -186,6 +212,186 @@
 		}
 	],
 	"timelines": [
+		{
+			"id": "4V889OPK98GZK58Z",
+			"type": "block",
+			"name": "",
+			"temp": "82KOOS231BZ6GE6G",
+			"color": "#001F80",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 507.17365,
+				"POS_Y": 168.02588,
+				"POS_Z": 149.45285
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 509.54887,
+					"POS_Y": 172.64247,
+					"POS_Z": 163.43291,
+					"ROT_Y": 31.70792,
+					"ROT_Z": -25.29889
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 10,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "940C26908UV33AA3",
+			"type": "block",
+			"name": "",
+			"temp": "82KOOS231BZ6GE6G",
+			"color": "#800024",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 515.3924,
+				"POS_Y": 165.06187,
+				"POS_Z": 122.72866
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 507.17364,
+					"POS_Y": 168.02588,
+					"POS_Z": 165.45285,
+					"ROT_Y": -18.02527,
+					"ROT_Z": -23.68089
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 9,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "BSP1BUUD6HE33M50",
+			"type": "item",
+			"name": "",
+			"temp": "GY74B4P1QHD379BI",
+			"color": "#002B80",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 675.21228,
+				"POS_Y": -42.55596,
+				"POS_Z": 215.80925
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 5.4392,
+					"POS_Y": 2.05177,
+					"POS_Z": -4.69824,
+					"ROT_X": 88.59861,
+					"ROT_Y": -3.99091,
+					"ROT_Z": -49.65421,
+					"ITEM_NAME": "item/leather_helmet"
+				}
+			},
+			"parent": "704E8D68JC35U8H7",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 0.5 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
 		{
 			"id": "L0MNUTEXAY99X4YB",
 			"type": "camera",
@@ -203,6 +409,11 @@
 				"ROT_Z": 71.90123
 			},
 			"keyframes": {
+				"0": {
+					"POS_X": 261.00658,
+					"POS_Y": -73.89397,
+					"POS_Z": 453.10685
+				}
 			},
 			"parent": "root",
 			"parent_tree_index": 8,
@@ -1111,6 +1322,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 7.95732,
+					"BEND_ANGLE_X": 19.53954
+				}
 			},
 			"parent": "UPV6B1MK08Y6F337",
 			"parent_tree_index": 2,
@@ -1161,6 +1376,11 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": -34.49749,
+					"ROT_Y": -1.01919,
+					"BEND_ANGLE_X": 22.72668
+				}
 			},
 			"parent": "UPV6B1MK08Y6F337",
 			"parent_tree_index": 1,
@@ -1211,11 +1431,14 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"BEND_ANGLE_X": 13.41098
+				}
 			},
 			"parent": "UPV6B1MK08Y6F337",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -1261,6 +1484,11 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": -30.81075,
+					"ROT_Y": 0.59985,
+					"BEND_ANGLE_X": 33.26192
+				}
 			},
 			"parent": "32722JQ32M4W9V3Z",
 			"parent_tree_index": 2,
@@ -1311,6 +1539,11 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": 26.94516,
+					"ROT_Y": -9.58757,
+					"BEND_ANGLE_X": 10.91903
+				}
 			},
 			"parent": "32722JQ32M4W9V3Z",
 			"parent_tree_index": 1,
@@ -1469,11 +1702,16 @@
 				"POS_X": 70.25443
 			},
 			"keyframes": {
+				"0": {
+					"POS_X": 575.34626,
+					"POS_Y": -228.6386,
+					"POS_Z": 192.10378
+				}
 			},
 			"parent": "root",
 			"parent_tree_index": 4,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -1519,6 +1757,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 0.67737,
+					"BEND_ANGLE_X": 1.45699
+				}
 			},
 			"parent": "5OS903269NWG9VAR",
 			"parent_tree_index": 2,
@@ -1569,6 +1811,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": -2.00432,
+					"BEND_ANGLE_X": 5.02641
+				}
 			},
 			"parent": "5OS903269NWG9VAR",
 			"parent_tree_index": 1,
@@ -1623,7 +1869,7 @@
 			"parent": "5OS903269NWG9VAR",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -1669,6 +1915,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 3.50278,
+					"BEND_ANGLE_X": 6.7248
+				}
 			},
 			"parent": "7F45F8F0P3P49C45",
 			"parent_tree_index": 2,
@@ -1719,6 +1969,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": -4.5867,
+					"BEND_ANGLE_X": 6.85823
+				}
 			},
 			"parent": "7F45F8F0P3P49C45",
 			"parent_tree_index": 1,
@@ -1877,11 +2131,17 @@
 				"POS_X": 49.88714
 			},
 			"keyframes": {
+				"0": {
+					"POS_X": 617.45855,
+					"POS_Y": 284.82954,
+					"POS_Z": 262.05162,
+					"ROT_Z": 192.62174
+				}
 			},
 			"parent": "root",
 			"parent_tree_index": 3,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2031,7 +2291,7 @@
 			"parent": "NDSK84F9YP712ZZ6",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2077,6 +2337,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 151.45946
+				}
 			},
 			"parent": "Q4GFHVW6MSIMXV38",
 			"parent_tree_index": 2,
@@ -2127,6 +2390,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": -152.54367
+				}
 			},
 			"parent": "Q4GFHVW6MSIMXV38",
 			"parent_tree_index": 1,
@@ -2177,11 +2443,14 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": -17.29559
+				}
 			},
 			"parent": "Q4GFHVW6MSIMXV38",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2286,14 +2555,16 @@
 			},
 			"keyframes": {
 				"0": {
-					"POS_X": 75.31556,
-					"POS_Y": 19.65021
+					"POS_X": 510.81022,
+					"POS_Y": 167.32806,
+					"POS_Z": 128.2389,
+					"ROT_Z": 161.32393
 				}
 			},
 			"parent": "root",
 			"parent_tree_index": 2,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2339,6 +2610,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 4.69592
+				}
 			},
 			"parent": "7KCB6V9IN44569CI",
 			"parent_tree_index": 2,
@@ -2389,6 +2663,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": -6.48303
+				}
 			},
 			"parent": "7KCB6V9IN44569CI",
 			"parent_tree_index": 1,
@@ -2443,7 +2720,7 @@
 			"parent": "7KCB6V9IN44569CI",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2489,6 +2766,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 8.41537
+				}
 			},
 			"parent": "HV82907KK4959611",
 			"parent_tree_index": 2,
@@ -2539,6 +2819,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": -9.28054
+				}
 			},
 			"parent": "HV82907KK4959611",
 			"parent_tree_index": 1,
@@ -2697,13 +2980,16 @@
 			},
 			"keyframes": {
 				"0": {
-					"POS_X": 31.43983
+					"POS_X": 586.79004,
+					"POS_Y": 278.49311,
+					"POS_Z": 262.10774,
+					"ROT_Z": -167.19574
 				}
 			},
 			"parent": "root",
 			"parent_tree_index": 1,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2749,6 +3035,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": 22.32011,
+					"BEND_ANGLE_X": 70.01341
+				}
 			},
 			"parent": "SG5UQ4Q685MGT152",
 			"parent_tree_index": 2,
@@ -2799,6 +3089,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": -38.56998,
+					"BEND_ANGLE_X": 23.58742
+				}
 			},
 			"parent": "SG5UQ4Q685MGT152",
 			"parent_tree_index": 1,
@@ -2849,11 +3143,14 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"BEND_ANGLE_X": 18.23901
+				}
 			},
 			"parent": "SG5UQ4Q685MGT152",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2899,6 +3196,11 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_Y": 51.61723,
+					"ROT_Z": 1.35799,
+					"BEND_ANGLE_X": 36.44086
+				}
 			},
 			"parent": "303YZ3DCM53608SL",
 			"parent_tree_index": 2,
@@ -2949,11 +3251,16 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": -12.57212,
+					"ROT_Y": -45.2913,
+					"BEND_ANGLE_X": 18.11957
+				}
 			},
 			"parent": "303YZ3DCM53608SL",
 			"parent_tree_index": 1,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2999,6 +3306,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"ROT_X": -26.45721
+				}
 			},
 			"parent": "303YZ3DCM53608SL",
 			"parent_tree_index": 0,
@@ -3106,11 +3416,16 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"0": {
+					"POS_X": 574.31455,
+					"POS_Y": -65.25286,
+					"POS_Z": 221.00876
+				}
 			},
 			"parent": "root",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
