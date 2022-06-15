@@ -21,11 +21,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 1225.35217, 0, 19.65021 ],
-			"angle_xy": 224.93959,
-			"angle_z": 15.60036,
+			"focus": [ 175.01594, 357.42219, 265.49596 ],
+			"angle_xy": 280.80867,
+			"angle_z": 48.04303,
 			"roll": 0,
-			"zoom": 2851.62199
+			"zoom": 44.16772
 		}
 	},
 	"background": {
@@ -187,13 +187,50 @@
 	],
 	"timelines": [
 		{
+			"id": "L0MNUTEXAY99X4YB",
+			"type": "camera",
+			"name": "",
+			"temp": "null",
+			"color": "#80004C",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 215.69758,
+				"POS_Y": -194.56493,
+				"POS_Z": 488.298,
+				"ROT_X": 36.83713,
+				"ROT_Z": 71.90123
+			},
+			"keyframes": {
+			},
+			"parent": "root",
+			"parent_tree_index": 8,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true
+		},
+		{
 			"id": "NCE05FX129AZJ25W",
 			"type": "scenery",
 			"name": "",
 			"temp": "38AB5856N96RH31T",
 			"color": "#806000",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"parts": [
 			],
@@ -3159,6 +3196,12 @@
 			"id": "994T5JKLT7S6DOT0",
 			"type": "schematic",
 			"filename": "Swamp.schematic",
+			"scenery_tl_add": true
+		},
+		{
+			"id": "LJUK57O0QK3A3X70",
+			"type": "schematic",
+			"filename": "Mountain.schematic",
 			"scenery_tl_add": true
 		}
 	]
