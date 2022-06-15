@@ -13,19 +13,19 @@
 			"repeat": false,
 			"seamless_repeat": false,
 			"show_seconds": true,
-			"marker": 30,
+			"marker": 35,
 			"list_width": 320,
-			"hor_scroll": 31,
-			"zoom": 21,
+			"hor_scroll": 1044,
+			"zoom": 31.99999,
 			"region_start": "null",
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 493.81851, 149.37154, 40.90265 ],
-			"angle_xy": 135.94693,
-			"angle_z": 42.42278,
+			"focus": [ 667.79169, 268.40616, 322.91559 ],
+			"angle_xy": 182.99243,
+			"angle_z": 20.24193,
 			"roll": 0,
-			"zoom": 155.95413
+			"zoom": 959.55878
 		}
 	},
 	"background": {
@@ -4287,9 +4287,432 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "893P6LSZ2DO19UB2",
+			"type": "particles",
+			"name": "",
+			"particles": {
+				"spawn_constant": false,
+				"spawn_amount": 100,
+				"spawn_region_use": false,
+				"spawn_region_type": "sphere",
+				"spawn_region_sphere_radius": 100,
+				"spawn_region_cube_size": 200,
+				"spawn_region_box_size": [ 200, 200, 200 ],
+				"bounding_box_type": "none",
+				"bounding_box_ground_z": 0,
+				"bounding_box_custom_start": [ -100, -100, -100 ],
+				"bounding_box_custom_end": [ 100, 100, 100 ],
+				"bounding_box_relative": false,
+				"destroy_at_animation_finish": true,
+				"destroy_at_amount": true,
+				"destroy_at_amount_val": 300,
+				"destroy_at_time": false,
+				"destroy_at_time_seconds": 5,
+				"destroy_at_time_israndom": false,
+				"destroy_at_time_random_min": 5,
+				"destroy_at_time_random_max": 10,
+				"destroy_at_bounding_box": 0,
+				"types": [
+					{
+						"id": "WS395O4821G23ZMS",
+						"name": "Smoke (black)",
+						"temp_type": "template",
+						"text": "Sample text",
+						"spawn_rate": 0.4525,
+						"sprite_tex": "default",
+						"sprite_tex_image": 0,
+						"sprite_template_tex": "default",
+						"sprite_template": "generic",
+						"sprite_template_still_frame": false,
+						"sprite_template_random_frame": false,
+						"sprite_template_reverse": true,
+						"sprite_frame_width": 8,
+						"sprite_frame_height": 8,
+						"sprite_frame_start": 7,
+						"sprite_frame_end": 0,
+						"sprite_animation_speed": 5,
+						"sprite_animation_speed_israndom": true,
+						"sprite_animation_speed_random_min": 5,
+						"sprite_animation_speed_random_max": 10,
+						"sprite_animation_onend": 0,
+						"angle_extend": false,
+						"angle": [ 0, 0, 0 ],
+						"angle_israndom": [ 1, 1, 1 ],
+						"angle_random_min": [ 0, 0, 0 ],
+						"angle_random_max": [ 360, 360, 360 ],
+						"angle_speed": 0,
+						"angle_speed_israndom": 0,
+						"angle_speed_random_min": 0,
+						"angle_speed_random_max": 20,
+						"angle_speed_add": 0,
+						"angle_speed_add_israndom": 0,
+						"angle_speed_add_random_min": -1,
+						"angle_speed_add_random_max": 1,
+						"angle_speed_mul": 1,
+						"angle_speed_mul_israndom": 0,
+						"angle_speed_mul_random_min": 0.75,
+						"angle_speed_mul_random_max": 0.9,
+						"spd_extend": false,
+						"spd": [ 0, 0, 0 ],
+						"spd_israndom": [ 1, 1, 1 ],
+						"spd_random_min": [ -200, -20, -20 ],
+						"spd_random_max": [ 200, 20, 20 ],
+						"spd_add": [ 0, 0, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 0.5, 1, 1 ],
+						"spd_mul_israndom": [ 0, 0, 0 ],
+						"spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"sprite_angle": 0,
+						"sprite_angle_israndom": false,
+						"sprite_angle_random_min": 0,
+						"sprite_angle_random_max": 360,
+						"sprite_angle_add": 0,
+						"sprite_angle_add_israndom": false,
+						"sprite_angle_add_random_min": -90,
+						"sprite_angle_add_random_max": 90,
+						"scale": 0.5,
+						"scale_israndom": true,
+						"scale_random_min": 0.25,
+						"scale_random_max": 0.75,
+						"scale_add": 0,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.05,
+						"alpha_add_random_max": -0.01,
+						"color": "#FFFFFF",
+						"color_israndom": true,
+						"color_random_start": "#474747",
+						"color_random_end": "#000000",
+						"color_mix_enabled": false,
+						"color_mix": "#000000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": true,
+						"bounce_factor": 0.5,
+						"orbit": false
+					},
+					{
+						"id": "7J14BXJ4IY85X3GC",
+						"name": "Smoke (white)",
+						"temp_type": "template",
+						"text": "Sample text",
+						"spawn_rate": 0.4475,
+						"sprite_tex": "default",
+						"sprite_tex_image": 0,
+						"sprite_template_tex": "default",
+						"sprite_template": "generic",
+						"sprite_template_still_frame": false,
+						"sprite_template_random_frame": false,
+						"sprite_template_reverse": true,
+						"sprite_frame_width": 8,
+						"sprite_frame_height": 8,
+						"sprite_frame_start": 7,
+						"sprite_frame_end": 0,
+						"sprite_animation_speed": 2.04,
+						"sprite_animation_speed_israndom": true,
+						"sprite_animation_speed_random_min": 4,
+						"sprite_animation_speed_random_max": 8,
+						"sprite_animation_onend": 0,
+						"angle_extend": false,
+						"angle": [ 0, 0, 0 ],
+						"angle_israndom": [ 1, 1, 1 ],
+						"angle_random_min": [ 0, 0, 0 ],
+						"angle_random_max": [ 360, 360, 360 ],
+						"angle_speed": 0,
+						"angle_speed_israndom": 0,
+						"angle_speed_random_min": 0,
+						"angle_speed_random_max": 20,
+						"angle_speed_add": 0,
+						"angle_speed_add_israndom": 0,
+						"angle_speed_add_random_min": -1,
+						"angle_speed_add_random_max": 1,
+						"angle_speed_mul": 1,
+						"angle_speed_mul_israndom": 0,
+						"angle_speed_mul_random_min": 0.75,
+						"angle_speed_mul_random_max": 0.9,
+						"spd_extend": true,
+						"spd": [ 0, 0, 0 ],
+						"spd_israndom": [ 1, 1, 1 ],
+						"spd_random_min": [ -100, -50, -100 ],
+						"spd_random_max": [ 100, 100, 100 ],
+						"spd_add": [ 0, 0.4, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 0.435, 0.5, 0.5 ],
+						"spd_mul_israndom": [ 1, 0, 1 ],
+						"spd_mul_random_min": [ 0.2, 0.75, 0.2 ],
+						"spd_mul_random_max": [ 0.4, 0.9, 0.4 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"sprite_angle": 0,
+						"sprite_angle_israndom": false,
+						"sprite_angle_random_min": 0,
+						"sprite_angle_random_max": 360,
+						"sprite_angle_add": 0,
+						"sprite_angle_add_israndom": false,
+						"sprite_angle_add_random_min": -90,
+						"sprite_angle_add_random_max": 90,
+						"scale": 1,
+						"scale_israndom": true,
+						"scale_random_min": 0.13,
+						"scale_random_max": 2,
+						"scale_add": 0,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.05,
+						"alpha_add_random_max": -0.01,
+						"color": "#FFFFFF",
+						"color_israndom": true,
+						"color_random_start": "#808080",
+						"color_random_end": "#FFFFFF",
+						"color_mix_enabled": false,
+						"color_mix": "#000000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": true,
+						"bounce_factor": 0.5,
+						"orbit": false
+					},
+					{
+						"id": "MQ11RH3T1E82E45J",
+						"name": "Explosion",
+						"temp_type": "template",
+						"text": "Sample text",
+						"spawn_rate": 0.1,
+						"sprite_tex": "default",
+						"sprite_tex_image": 1,
+						"sprite_template_tex": "default",
+						"sprite_template": "explosion",
+						"sprite_template_still_frame": false,
+						"sprite_template_random_frame": false,
+						"sprite_template_reverse": false,
+						"sprite_frame_width": 32,
+						"sprite_frame_height": 32,
+						"sprite_frame_start": 0,
+						"sprite_frame_end": 15,
+						"sprite_animation_speed": 24,
+						"sprite_animation_speed_israndom": true,
+						"sprite_animation_speed_random_min": 20,
+						"sprite_animation_speed_random_max": 28,
+						"sprite_animation_onend": 0,
+						"angle_extend": false,
+						"angle": [ 0, 0, 0 ],
+						"angle_israndom": [ 1, 1, 1 ],
+						"angle_random_min": [ 0, 0, 0 ],
+						"angle_random_max": [ 360, 360, 360 ],
+						"angle_speed": 0,
+						"angle_speed_israndom": 0,
+						"angle_speed_random_min": 0,
+						"angle_speed_random_max": 20,
+						"angle_speed_add": 0,
+						"angle_speed_add_israndom": 0,
+						"angle_speed_add_random_min": -1,
+						"angle_speed_add_random_max": 1,
+						"angle_speed_mul": 1,
+						"angle_speed_mul_israndom": 0,
+						"angle_speed_mul_random_min": 0.75,
+						"angle_speed_mul_random_max": 0.9,
+						"spd_extend": false,
+						"spd": [ 0, 0, 0 ],
+						"spd_israndom": [ 1, 1, 1 ],
+						"spd_random_min": [ -50, -20, -20 ],
+						"spd_random_max": [ 50, 20, 20 ],
+						"spd_add": [ 0, 0, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 1, 1, 1 ],
+						"spd_mul_israndom": [ 0, 0, 0 ],
+						"spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"sprite_angle": 0,
+						"sprite_angle_israndom": false,
+						"sprite_angle_random_min": 0,
+						"sprite_angle_random_max": 360,
+						"sprite_angle_add": 0,
+						"sprite_angle_add_israndom": false,
+						"sprite_angle_add_random_min": -90,
+						"sprite_angle_add_random_max": 90,
+						"scale": 1,
+						"scale_israndom": true,
+						"scale_random_min": 1,
+						"scale_random_max": 1.5,
+						"scale_add": 0,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.05,
+						"alpha_add_random_max": -0.01,
+						"color": "#FFFFFF",
+						"color_israndom": true,
+						"color_random_start": "#B7B7B7",
+						"color_random_end": "#FFFFFF",
+						"color_mix_enabled": false,
+						"color_mix": "#000000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": true,
+						"bounce_factor": 0.5,
+						"orbit": false
+					}
+				]
+			}
 		}
 	],
 	"timelines": [
+		{
+			"id": "P0S4Q3D5MN39983U",
+			"type": "particles",
+			"name": "",
+			"temp": "893P6LSZ2DO19UB2",
+			"color": "#00805F",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 565.33978,
+				"POS_Y": 57.54118,
+				"POS_Z": 249.15512
+			},
+			"keyframes": {
+				"30": {
+					"POS_Y": 15.00551
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 27,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": false,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
 		{
 			"id": "VS66FN41C1F94Z6H",
 			"type": "particles",
@@ -4930,6 +5353,10 @@
 				"25": {
 					"ROT_X": -55.64665,
 					"BEND_ANGLE_X": 41.8786
+				},
+				"30": {
+					"ROT_X": 10.3526,
+					"BEND_ANGLE_X": 41.8786
 				}
 			},
 			"parent": "8CZ712OA5TY66B55",
@@ -4995,6 +5422,10 @@
 				},
 				"25": {
 					"ROT_X": 17.23823,
+					"BEND_ANGLE_X": 32.54794
+				},
+				"30": {
+					"ROT_X": -60.28847,
 					"BEND_ANGLE_X": 32.54794
 				}
 			},
@@ -5173,6 +5604,10 @@
 				"25": {
 					"ROT_X": -45.14441,
 					"BEND_ANGLE_X": 40.18022
+				},
+				"30": {
+					"ROT_X": -97.49569,
+					"BEND_ANGLE_X": 63.47038
 				}
 			},
 			"parent": "U863W5IA5FWYDNI5",
@@ -5362,6 +5797,12 @@
 					"POS_Y": -53.03663,
 					"POS_Z": 127.04891,
 					"ROT_X": 12.79099
+				},
+				"30": {
+					"POS_X": 511.78924,
+					"POS_Y": -23.53713,
+					"POS_Z": 127.04891,
+					"ROT_X": 12.79099
 				}
 			},
 			"parent": "root",
@@ -5426,6 +5867,13 @@
 					"ROT_X": 37.90224,
 					"ROT_Y": 24.11429,
 					"ROT_Z": -129.83765
+				},
+				"30": {
+					"POS_Y": 237.15279,
+					"POS_Z": 290.99286,
+					"ROT_X": 37.90224,
+					"ROT_Y": 24.11429,
+					"ROT_Z": -129.83765
 				}
 			},
 			"parent": "root",
@@ -5487,6 +5935,12 @@
 					"POS_Z": 264.10917,
 					"ROT_Y": 12.97711,
 					"ROT_Z": -100.99358
+				},
+				"30": {
+					"POS_Y": 128.16034,
+					"POS_Z": 303.79162,
+					"ROT_Y": 12.97711,
+					"ROT_Z": -100.99358
 				}
 			},
 			"parent": "root",
@@ -5544,6 +5998,11 @@
 				"0": {
 					"POS_Y": 287.03829,
 					"POS_Z": 268.61458,
+					"ROT_X": -22.68446
+				},
+				"30": {
+					"POS_Y": 178.39281,
+					"POS_Z": 297.7096,
 					"ROT_X": -22.68446
 				}
 			},
@@ -5951,6 +6410,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"35": {
+					"ROT_Y": 14.26183,
+					"BEND_ANGLE_X": 28.43042
+				}
 			},
 			"parent": "BW1LL6700Z36VP4X",
 			"parent_tree_index": 2,
@@ -6001,6 +6464,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"35": {
+					"ROT_Y": -6.39081,
+					"BEND_ANGLE_X": 36.8845
+				}
 			},
 			"parent": "BW1LL6700Z36VP4X",
 			"parent_tree_index": 1,
@@ -6051,6 +6518,9 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"35": {
+					"BEND_ANGLE_X": 15.03423
+				}
 			},
 			"parent": "BW1LL6700Z36VP4X",
 			"parent_tree_index": 0,
@@ -6104,6 +6574,11 @@
 				"0": {
 					"ROT_X": -85.37881,
 					"ROT_Y": 20.75322
+				},
+				"35": {
+					"ROT_X": -35.19693,
+					"ROT_Y": 20.75322,
+					"BEND_ANGLE_X": 4.81395
 				}
 			},
 			"parent": "TVU0UX2N12ME003O",
@@ -6158,6 +6633,11 @@
 				"0": {
 					"ROT_X": -92.91064,
 					"ROT_Y": -30.08865
+				},
+				"35": {
+					"ROT_X": -12.7392,
+					"ROT_Y": -14.00142,
+					"BEND_ANGLE_X": 18.07291
 				}
 			},
 			"parent": "TVU0UX2N12ME003O",
@@ -6322,6 +6802,13 @@
 					"POS_X": 660.63887,
 					"POS_Y": 302.46656,
 					"POS_Z": 262.10777,
+					"ROT_Z": -153.8463
+				},
+				"35": {
+					"POS_X": 665.08474,
+					"POS_Y": 312.8656,
+					"POS_Z": 262.10777,
+					"ROT_X": -58.34067,
 					"ROT_Z": -153.8463
 				}
 			},
@@ -6597,6 +7084,12 @@
 					"ROT_Y": -88.73438,
 					"ROT_Z": 66.50251,
 					"BEND_ANGLE_X": 20.13544
+				},
+				"30": {
+					"ROT_X": -3.23714,
+					"ROT_Y": -1.69023,
+					"ROT_Z": 28.41031,
+					"BEND_ANGLE_X": 8.12354
 				}
 			},
 			"parent": "P5O5SQN5Y06R4S77",
@@ -6831,6 +7324,12 @@
 					"ROT_X": 4.98588,
 					"ROT_Y": 7.95732,
 					"BEND_ANGLE_X": 19.53954
+				},
+				"30": {
+					"ROT_X": 4.98588,
+					"ROT_Y": 44.27606,
+					"ROT_Z": -1.4855,
+					"BEND_ANGLE_X": 19.53954
 				}
 			},
 			"parent": "UPV6B1MK08Y6F337",
@@ -6896,6 +7395,11 @@
 					"ROT_X": -62.47944,
 					"ROT_Y": -1.01919,
 					"BEND_ANGLE_X": 64.72733
+				},
+				"30": {
+					"ROT_X": 23.08216,
+					"ROT_Y": -7.46414,
+					"BEND_ANGLE_X": 18.83705
 				}
 			},
 			"parent": "UPV6B1MK08Y6F337",
@@ -7014,6 +7518,11 @@
 					"ROT_X": -5.45501,
 					"ROT_Y": 33.01474,
 					"BEND_ANGLE_X": 33.26192
+				},
+				"30": {
+					"ROT_X": -5.45501,
+					"ROT_Y": 47.24208,
+					"BEND_ANGLE_X": 33.26192
 				}
 			},
 			"parent": "32722JQ32M4W9V3Z",
@@ -7078,6 +7587,11 @@
 				"15": {
 					"ROT_X": -5.14,
 					"ROT_Y": -26.29249,
+					"BEND_ANGLE_X": 10.91903
+				},
+				"30": {
+					"ROT_X": -5.14,
+					"ROT_Y": -39.15354,
 					"BEND_ANGLE_X": 10.91903
 				}
 			},
@@ -7253,6 +7767,13 @@
 					"POS_X": 575.34626,
 					"POS_Y": -165.52864,
 					"POS_Z": 229.26951,
+					"ROT_Z": 0.80676
+				},
+				"30": {
+					"POS_X": 575.34626,
+					"POS_Y": -133.56986,
+					"POS_Z": 217.50944,
+					"ROT_X": 50.4536,
 					"ROT_Z": 0.80676
 				}
 			},
@@ -7689,6 +8210,13 @@
 					"POS_X": 617.45855,
 					"POS_Y": 284.82954,
 					"POS_Z": 262.05162,
+					"ROT_X": 8.99918,
+					"ROT_Z": 192.62174
+				},
+				"30": {
+					"POS_X": 617.45855,
+					"POS_Y": 284.82954,
+					"POS_Z": 289.17217,
 					"ROT_X": 8.99918,
 					"ROT_Z": 192.62174
 				}
@@ -8538,6 +9066,12 @@
 					"POS_X": 586.79004,
 					"POS_Y": 278.49311,
 					"POS_Z": 262.10774,
+					"ROT_Z": -167.19574
+				},
+				"30": {
+					"POS_X": 581.14839,
+					"POS_Y": 278.49311,
+					"POS_Z": 288.6115,
 					"ROT_Z": -167.19574
 				}
 			},
